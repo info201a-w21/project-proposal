@@ -1,6 +1,6 @@
 # Final Project
 
-##Domain Of Interest
+## Domain Of Interest
 
 - Why are you interested in this field/domain?
 
@@ -14,9 +14,9 @@
 
 <!-- write here-->
 
-#Finding Data
+# Finding Data
 
-##COVID-19 Location Data
+## COVID-19 Location Data
 
 - Where did you download the data (e.g., a web URL)?
 
@@ -40,7 +40,7 @@ How was the data collected or generated? Make sure to explain who collected the 
 
 <!-- write here-->
 
-##Tagged COVID-19 Tweets
+## Tagged COVID-19 Tweets
 
 - Where did you download the data (e.g., a web URL)?
 
@@ -62,7 +62,7 @@ https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
 
 <!-- write here-->
 
-##COVID-19 Tweets
+## COVID-19 Tweets
 
 - Where did you download the data (e.g., a web URL)?
 
