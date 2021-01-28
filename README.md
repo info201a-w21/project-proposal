@@ -70,16 +70,18 @@ https://www.kaggle.com/gpreda/covid19-tweets
 
 - How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
 
-<!-- write here-->
+The data was collected by extracting tweets with the #COVID19 hashtag via the Twitter API with a python script. The data was collected by Dr. Gabriel Preda, the lead data scientist at Endava.
+The data is a raw dataset which includes the tweet date, tweet content, geolocation, user profile creation date, followers, mutuals and if the user is verified or not, and more.
 
 - How many observations (rows) are in your data?
 
-<!-- write here-->
+179109
 
 - How many features (columns) are in the data?
 
-<!-- write here-->
+13
 
 - What questions (from above) can be answered using the data in this dataset?
 
-<!-- write here-->
+We can find the relationship between locaitons with high amounts of "covid skeptical" tweets and locations with high amounts of COVID-19 cases.
+However, a downside may be that we will have to manually codify the tweet content ourselves to determine if it is "covid skeptical."
