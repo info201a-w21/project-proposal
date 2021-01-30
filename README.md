@@ -48,19 +48,20 @@ https://www.kaggle.com/datatattle/covid-19-nlp-text-classification
 
 - How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
 
-<!-- write here-->
+The data classifies nearly 45,000 tweets related to COVID-19. The tweets have been pulled from Twitter and manual tagging was performed by Aman Miglani about five months ago. Each entry includes the location, time of tweet, text of tweet, and a positive or negative "sentiment" label. The names and usernames of the original "tweeters" are also included but are given codes for the sake of privacy.
 
 - How many observations (rows) are in your data?
 
-<!-- write here-->
+From both the train and test data set, there are approximately 45,000 tweets (rows).
 
 - How many features (columns) are in the data?
 
-<!-- write here-->
+There are six features in the data: "Name", "Screen Name", "Tweeted From", "Tweeted At", "Twitter Text", and "Sentiment".
 
 - What questions (from above) can be answered using the data in this dataset?
 
-<!-- write here-->
+Data driven questions related to users' locations and their feelings about COVID-19 can be answered using this data set. For example, what regions have users with the most negative sentiments regarding COVID-19? The manual labeling of the data, however, may prompt further questioning about its subjective nature.
+
 
 ## COVID-19 Tweets
 
