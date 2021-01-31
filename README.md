@@ -4,15 +4,27 @@
 
 - Why are you interested in this field/domain?
 
-<!-- write here-->
+Research questions concerning the pandemic have been altogether too topical as of late but seeing that two of our group members are interested in Public Health, we felt that it would be a good choice for our group to pursue a COVID-19 related question. We hope to explore the relationship between geographically situated COVID-skeptic social media posts and coronavirus hotspots in the U.S.. In order to do this, we have searched for similar projects and applicable data.
 
 - What other examples of data driven project have you found related to this domain (share at least 3)?
 
-<!-- write here-->
+While there is a plethora of readily accessible coronavirus data, the COVID-in-social media aspect of our research has expectedly less data representation. Despite this, we have been able to find a few research projects concerned with COVID social media misinformation.
+
+https://explore.openaire.eu/search/dataset?datasetId=r37b0ad08687::b8c8f1c5e33684a9b3bfb87fdd616f73
+
+Carnegie Mellon University project aimed at building a dataset of annotated misleading posts from Twitter and providing social media misinformation research models for further study.
+
+https://esoc.princeton.edu/publications/esoc-covid-19-disinformation-tracking-report
+
+A Princeton University ESOC 2020 research article presenting data methods for tracking social media COVID misinformation and fake news.
+
+https://arxiv.org/pdf/2005.05710.pdf
+
+This is an August 2020 research paper that aims to quantify COVID misinformation tweets and to propose methods for identifying and fact-checking misleading posts.
 
 - What data-driven questions do you hope to answer about this domain (share at least 3)?
 
-<!-- write here-->
+Our main question is whether or not a high number of COVID related tweets in a geographic area has any relationship with COVID severity in the area. Another question potentially addressable in our project, is what particular hashtags/post categories most commonly contain misinformation posts. Additionally, a final potential might be what kind of account is more likely to make an original misinformation post (verified or not, etc) or what kind of account most commonly retweets misinformation posts. We expect that as we begin our analysis in earnest, more potential questions will be revealed.
 
 # Finding Data
 
