@@ -32,25 +32,23 @@ Our main question is whether or not a high number of COVID related tweets in a g
 
 - Where did you download the data (e.g., a web URL)?
 
-https://www.kaggle.com/roche-data-science-coalition/uncover OR https://ourworldindata.org/coronavirus-source-data
+https://ourworldindata.org/coronavirus-source-data
 
-<!-- unsure of which we want to use tbh. use whateveer one you want. or find your own. ->
+- How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
 
-How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
-
-<!-- write here-->
+The data was collected by **Our World in Data** which provides open access to data and research to "make progress against the worlds largest problems". Our World in Data uses COVID-19 data from Johns Hopkins, European Centre for Disease Prevention and Control, the COVID tracking project, and from data collected by Our World in Data themselves. They compile this data to create a dataset with almost sixty features which measure global cases, hospitalizations, deaths, vaccinations, ICU patients and testing along with others. This provides a comprehensive COVID-19 dataset which is updated on a daily basis.
 
 - How many observations (rows) are in your data?
 
-<!-- write here-->
+63392 observations in the dataset.
 
 - How many features (columns) are in the data?
 
-<!-- write here-->
+There are 59 features or columns in the dataset.
 
 - What questions (from above) can be answered using the data in this dataset?
 
-<!-- write here-->
+With 59 features there are many questions that can be asked of this data set such as which countries have the highest hospitalizations to case ratio, which countries are providing the most tests and does the rate of testing correlate to the rate of cases. Which countries are cases increasing the fastest and which the lowest. There are countless questions that can be answered using this dataset.
 
 ## Tagged COVID-19 Tweets
 
