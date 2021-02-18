@@ -7,6 +7,15 @@ output: html_document
 source("chart1.R")
 ```
 
+Write an introductory paragraph explaining the domain/data set (feel free to borrow from the project proposal)
+
+Write a summary paragraph that includes information calculated by your summary information function
+
+Render your table and describe pertinent observations found in it
+
+Describe the purpose of each chart (e.g., "this chart was intended to show the relationship between..."), render each chart, and describe pertinent observations found in each chart
+
+
 This is a map of the cummulative global Covid-19 cases with the most up to date data.
 
 ```{r, echo = FALSE}

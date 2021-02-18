@@ -20,4 +20,9 @@ shapefile <- shapefile %>%
 covid_map <- ggplot(data = shapefile)+
   geom_polygon(mapping = aes(x = long, y = lat, group = group, fill = total_cases))+
   labs(title = paste("Total Number of Covid Cases in Each Country"), 
-       x = "", y = "", fill = "Number of Cases")
+       x = "", y = "", fill = "Number of Cases")+
+  theme(axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_blank())
