@@ -5,6 +5,7 @@ output: html_document
 
 ```{r, include=FALSE}
 source("chart1.R")
+source("chart2.R")
 ```
 
 Write an introductory paragraph explaining the domain/data set (feel free to borrow from the project proposal)
@@ -21,3 +22,9 @@ This is a map of the cummulative global Covid-19 cases with the most up to date 
 ```{r, echo = FALSE}
 covid_map
 ```
+
+This is a map showing the relationship between countries death rates and GDP.
+```{r, echo = FALSE}
+covid_plot_2
+```
+
