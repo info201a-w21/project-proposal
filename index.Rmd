@@ -21,12 +21,13 @@ Render your table and describe pertinent observations found in it
 Describe the purpose of each chart (e.g., "this chart was intended to show the relationship between..."), render each chart, and describe pertinent observations found in each chart
 
 
-**This is a map of the cumulative global Covid-19 cases with the most up to date data.**
+**Below is a map of cummulative Covid-19 cases by country.**
 
 ```{r, echo = FALSE}
 covid_map
 ```
 
+The map illustrates the relationship between Covid-19 cases and location. The number of Covid-19 cases is cummulative from throughout the pandemic and does not reflect the current number of cases. The most pertinent observation in the chart is that the US seems to have the greatest number of total cases, this observation is clear due to the coloring of the US. Brazil and India also appear to have higher case numbers compared to the rest of the world. This observations are based on the coloring of the countries.
 
 **Below is a scatterplot comparing the Government Response Stringency Index of each country with their total reported Covid-19 cases per million people in the population.**
 
