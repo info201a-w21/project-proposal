@@ -5,7 +5,11 @@ output: html_document
 
 ```{r, include=FALSE}
 source("chart1.R")
+
 source("sophia_chart.R")
+
+source("chart2.R")
+
 ```
 
 Write an introductory paragraph explaining the domain/data set (feel free to borrow from the project proposal)
@@ -32,3 +36,10 @@ strin_cases_plot
 ```
 
 The scatterplot was especially useful in illustrating the relationship between stringency and total cases in each country because of the continuous nature of each variable. The Government Response Stringency Index is a measure based on 9 indicators including school closures, workplace closures, and travel bans. The Index is rescaled to values ranging from 0 to 100, with 100 being the strictest response. It is important to note that each country has multiple data points on the scatterplot to reflect their subsequent change in stringency as the Covid-19 pandemic has unfolded. What's most interesting about this plot is that it reveals how Covid-19 cases seem to rise even as stringency levels increase in countries. This likely reflects a rise in stringency as a response to worsening public health conditions. However, the rate of cases seems to decrease after a stringency index of approximately 63 is enforced. This logically suggests that countries with a high enough stringency index tend experience fewer total Covid-19 cases.
+
+
+**This is a map showing the relationship between countries death rates and GDP.**
+```{r, echo = FALSE}
+covid_plot_2
+```
+

@@ -63,7 +63,7 @@ names(capita_to_deaths)[3] <- "gdp_per_capita"
 
 
 #making graph
-ggplot(data = capita_to_deaths) +
+covid_plot_2 <- ggplot(data = capita_to_deaths) +
   geom_point(mapping =aes(x = gdp_per_capita, y = total_deaths,)) +
   geom_smooth(mapping =aes(x = gdp_per_capita, y = total_deaths,), se = FALSE) +
     scale_color_gradient(low = "black", high = "red") +
@@ -74,3 +74,4 @@ ggplot(data = capita_to_deaths) +
   xlab("GDP Per Capita") +
   ylab("Total Deaths") 
   
+  covid_plot_2
