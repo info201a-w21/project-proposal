@@ -42,4 +42,4 @@ The scatterplot was especially useful in illustrating the relationship between s
 ```{r, echo = FALSE}
 covid_plot_2
 ```
-
+This scatterplot shows the overall relationship between countries death rates and GDP. This illuminates the effect resources has on each countries struggle with COVID19. As you can see from the graph, countries with a low amount of GDP struggle significant more than countries with a high amount of GDP. GDP may actualize in terms of increased access to care and housing, increased access to vaccines, and overall better living conditions which have shown to correlate to a lower amount of death (as shown in this graph).
