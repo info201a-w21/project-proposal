@@ -10,15 +10,23 @@ source("sophia_chart.R")
 
 source("chart2.R")
 
+source("summary_info_script.R")
+
 ```
 
-Write an introductory paragraph explaining the domain/data set (feel free to borrow from the project proposal)
+## Introduction 
 
-Write a summary paragraph that includes information calculated by your summary information function
+For our final project, we hope to discover if there is a relationship between the geographic origins of COVID-skeptic tweets and geographic areas with COVID spikes. Without too much difficulty, we were able to find this data which provides actively updated COVID data at the global, continental, and country level.
+
+## Summary of data
+
+To begin our exploration of this data frame, we first calculated the continental location with the highest total deaths in order to get a broad impression of the data. The location with the highest deaths was `r summary_info$highest_death_location`. Then, we wanted to find which country had conducted the most tests. Here, we see that the `r summary_info$highest_test_location` has, by the more recent dates, done the most tests. Additionally, in the data frame there is an interesting variable that rates the strictness of government response to the health crisis on a 0-100 scale. Upon attempting to calculate the country with the highest response stringency, we found that there are 15 countries with a 100 stringency rating `r summary_info$highest_stringency_locations`. Wondering what countries had the lowest stringency score, we found that there are 30 distinct countries with a stringency rating of 0 `r summary_info$lowest_stringency_locations`. Finally, we thought it interesting to find the location where the greatest percentage of the population has been vaccinated. We see that the British territory of `r summary_info$most_percentage_vacc_location` is the location with the highest percentage of the population vaccinated. 
+
 
 Render your table and describe pertinent observations found in it
 
-Describe the purpose of each chart (e.g., "this chart was intended to show the relationship between..."), render each chart, and describe pertinent observations found in each chart
+
+
 
 
 **This is a map of the cumulative global Covid-19 cases with the most up to date data.**
