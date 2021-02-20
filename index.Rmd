@@ -4,6 +4,8 @@ output: html_document
 ---
 
 ```{r, include=FALSE}
+library(knitr)
+
 source("chart1.R")
 
 source("sophia_chart.R")
@@ -12,6 +14,7 @@ source("chart2.R")
 
 source("summary_info_script.R")
 
+source("table.R")
 ```
 
 ## Introduction 
@@ -20,13 +23,15 @@ For our final project, we hope to discover if there is a relationship between th
 
 ## Summary of data
 
-To begin our exploration of this data frame, we first calculated the continental location with the highest total deaths in order to get a broad impression of the data. The location with the highest deaths was `r summary_info$highest_death_location`. Then, we wanted to find which country had conducted the most tests. Here, we see that the `r summary_info$highest_test_location` has, by the more recent dates, done the most tests. Additionally, in the data frame there is an interesting variable that rates the strictness of government response to the health crisis on a 0-100 scale. Upon attempting to calculate the country with the highest response stringency, we found that there are 15 countries with a 100 stringency rating. Wondering what countries had the lowest stringency score, we found that there are 30 distinct countries with a stringency rating of 0. Finally, we thought it interesting to find the location where the greatest percentage of the population has been vaccinated. We see that the British territory of `r summary_info$most_percentage_vacc_location` is the location with the highest percentage of the population vaccinated. 
+To begin our exploration of this data frame, we first calculated the continental location with the highest total deaths in order to get a broad impression of the data. The location with the highest deaths was `r summary_info$highest_death_location`. Then, we wanted to find which country had conducted the most tests. Here, we see that the `r summary_info$highest_test_location` has, by the more recent dates, done the most tests. Additionally, in the data frame there is an interesting variable that rates the strictness of government response to the health crisis on a 0-100 scale. Upon attempting to calculate the country with the highest response stringency, we found that there are 15 countries with a 100 stringency rating. Wondering what countries had the lowest stringency score, we found that there are 30 distinct countries with a stringency rating of 0. Finally, we thought it interesting to find the location where the greatest percentage of the population has been vaccinated. We see that the British territory of `r summary_info$most_percentage_vacc_location` is the location with the highest percentage of its population vaccinated. 
 
+## Aggregated table
 
-Render your table and describe pertinent observations found in it
+```{r, echo = FALSE}
+kable(highest_stringency_countries)
+```
 
-
-
+In this table, we can see the average number of new daily cases for each of the countries given a COVID response stringency rating of 100 (the highest rating of strictness by the Oxford Coronavirus Government Response Tracker). This is an interesting and relevant metric as it provides a baseline against which we might compare other less strict countries in our analysis. Essentially, the table is a starting point for the question of whether a high stringency index systematically means a lower average daily case count for a specific country. 
 
 
 **This is a map of the cumulative global Covid-19 cases with the most up to date data.**
@@ -35,6 +40,7 @@ Render your table and describe pertinent observations found in it
 covid_map
 ```
 
+The map illustrates the relationship between Covid-19 cases and location. The number of Covid-19 cases is cumulative from throughout the pandemic and does not reflect the current number of cases. The most pertinent observation in the chart is that the US seems to have the greatest number of total cases, this observation is clear due to the coloring of the US. Brazil and India also appear to have higher case numbers compared to the rest of the world. These observations are based on the color hues of the countries. 
 
 **Below is a scatterplot comparing the Government Response Stringency Index of each country with their total reported Covid-19 cases per million people in the population.**
 
