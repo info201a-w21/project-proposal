@@ -15,10 +15,10 @@ highest_stringency_countries <- data %>%
 # Rename columns ----------------------------------------------------------
 
  highest_stringency_countries <- highest_stringency_countries %>%
-  rename(avg_daily_cases = new_cases)
+  rename("average daily cases" = new_cases)
 
  highest_stringency_countries <- highest_stringency_countries %>% 
-   rename(stringent_countries = location)
+   rename("stringent countries" = location)
  
 
 # Round average new cases -------------------------------------------------
