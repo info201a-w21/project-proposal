@@ -1,6 +1,7 @@
 library(stringr)
 library(tidyverse)
 library(countrycode)
+library(scales)
 
 covid <- read.csv("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv")
 
@@ -19,6 +20,7 @@ shapefile <- shapefile %>%
 
 covid_map <- ggplot(data = shapefile)+
   geom_polygon(mapping = aes(x = long, y = lat, group = group, fill = total_cases))+
+  scale_fill_gradient(labels = comma) + 
   labs(title = paste("Total Number of Covid Cases in Each Country"), 
        x = "", y = "", fill = "Number of Cases")+
   theme(axis.text.x = element_blank(),
