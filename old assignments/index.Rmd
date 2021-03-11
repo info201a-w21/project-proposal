@@ -27,7 +27,7 @@ To begin our exploration of this data frame, we first calculated the continental
 
 ## Aggregated table
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, warning = FALSE}
 kable(highest_stringency_countries)
 ```
 
@@ -36,7 +36,7 @@ In this table, we can see the average number of new daily cases for each of the 
 
 **This is a map of the cumulative global Covid-19 cases with the most up to date data.**
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, warning = FALSE}
 covid_map
 ```
 
@@ -45,7 +45,7 @@ The map illustrates the relationship between Covid-19 cases and location. The nu
 **Below is a scatterplot comparing the Government Response Stringency Index of each country with their total reported Covid-19 cases per million people in the population.**
 
 
-```{r, echo = FALSE, message = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 strin_cases_plot
 ```
 
@@ -53,7 +53,7 @@ The scatterplot was especially useful in illustrating the relationship between s
 
 
 **This is a map showing the relationship between countries death rates and GDP.**
-```{r, echo = FALSE, message = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 covid_plot_2
 ```
 
